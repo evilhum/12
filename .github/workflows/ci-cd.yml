@@ -13,7 +13,7 @@ jobs:
     name: Run Tests & Lint
     runs-on: ubuntu-latest
 
-    container: golang:1.22
+    container: golang:1.26
 
     steps:
       - name: Checkout repository
